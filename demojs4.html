@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>If Condition 2</title>
+	<script type="text/javascript">
+		//Bài 1
+		function baiMot() {
+			var now = new Date(); 
+			var date = now.getDate();   
+			var month = now.getMonth() + 1;   
+			var year = now.getFullYear(); 
+			var season;
+			switch (month) {
+				case 1, 2, 3: 
+					season = "mùa xuân";
+					break;
+				case 4, 5, 6: 
+					season = "mùa hè";
+					break;
+				case 7, 8, 9: 
+					season = "mùa thu";
+					break;
+				case 10, 11, 12: 
+					season = "mùa đông";
+					break;
+
+			}
+
+			document.write("Hôm nay là ngày " + date + " tháng " + month + " năm " + year + " và là " + season + ".<br>")
+
+		}
+		console.log(baiMot());
+
+		//Bài 2
+		function baiHai() {
+
+		}
+
+		//Bài 4
+
+		//Bài 6
+		function baiSau() {
+			for (var i = 1; i <= 100; i++) {
+				if (i % 2 == 0) {
+					document.write("<p style=\'color: blue\'>" + i + "</p>");
+				}
+				else {
+					document.write("<p style=\'color: red\'>" + i + "</p>");
+				}
+			}
+		}
+		console.log(baiSau());
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
