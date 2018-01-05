@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Function</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">		
+		
+		//Bài 1
+		function baiMot(x){
+			return x*x;					
+		}
+		console.log(baiMot(5));
+
+		//Bài 2
+		function baiHai(a, b, c){
+			return baiMot(3*a + 2*b - c);
+		}
+		console.log(baiHai(1, 2, 5));
+
+		//Bài 3
+		function baiBa(str){
+			return result = str.substr(0, 10)+"..."
+		}
+		console.log(baiBa("Hello world, this is a message from javascript"));
+
+		//Bài 4
+		function baiBon(str){
+			var firstLetter = str.charAt(0).toUpperCase();
+			var remainingLetter = str.slice(1, str.length + 1).toLowerCase();
+			return firstLetter + remainingLetter;
+		}
+		console.log(baiBon("welcome to Techmaster"));
+
+		//Bài 5
+		function baiNam(intArray){
+			if (Array.isArray(intArray)) {
+				var sortedArray = (intArray.sort(function(a, b) { return a - b; }));
+			}			
+			return sortedArray[0];
+		}
+		console.log(baiNam([20, 5, 17, 9, 88, 37, 54]));
+
+		//Bài 6
+		function baiSau(nameArray){
+			if (Array.isArray(nameArray)) {
+				for (i = 0; i < nameArray.length; i++) {		
+					nameArray[i] = nameArray[i].toLowerCase();
+				}
+				var sortedArray = nameArray.sort();
+			} 	
+			document.write("Kết quả bài tập 6: " + nameArray.sort() + "<br>");
+		}
+		console.log(baiSau(["Nam", "Anh", "Hoàng", "Linh", "Tuấn", "Minh"]));
+
+		//Bài 7
+		function baiBay(){
+			var teacher = {
+				firstName: "Kim",
+				lastName: "Dung",
+				age: 30,
+				say: function(){}
+			}
+
+			var student = {
+				firstName: "Hoàng",
+				lastName: "Long",
+				age: 20,
+				say: function(){}
+			}
+
+			var parent = {
+				firstName: "Trần Bình",
+				lastName: "Minh",
+				age: 60,
+				say: function(){}
+			}
+
+			var aboutMe = function(){
+				document.write("Xin chào, tôi là " + this.firstName + " " + this.lastName + ". Năm nay tôi " + this.age + " tuổi.<br>");
+			}
+
+			teacher.say = aboutMe;
+			teacher.say();
+
+			student.say = aboutMe;
+			student.say();
+
+			parent.say = aboutMe;
+			parent.say();
+		}
+		console.log(baiBay());		
+	</script>
+</head>
+<body>
+
+</body>
+</html>

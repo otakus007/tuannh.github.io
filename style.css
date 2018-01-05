@@ -1,0 +1,45 @@
+p::first-letter{
+	text-align: justify;
+	font-size: xx-large;
+}
+h1, h2{
+	color: #ffffff;
+	background-color: rgb(15, 127, 255);
+}
+h2{
+	letter-spacing: 3px;
+}
+li{
+	font-family: Arial;
+	font-size: 0.8em;
+}
+.background{
+	background-color: grey;
+}
+.upper{
+	text-align: justify;
+	text-decoration: underline;
+}
+#indent{
+	text-indent: 30px;
+}
+a:link {
+	color: yellow;
+}
+
+a:visited {
+	color: cyan;
+}
+
+a:hover {
+	color: lightgreen;
+}
+
+a:active {
+	color: hotpink;
+}
+
+body { color: black }
+a { color: red; }
+ul { color: green; }
+li { color: blue; }

@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Bài tập HTML</title>
-	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<h1>Floating-point number arithmetic</h1>
@@ -21,24 +21,10 @@
 		&nbsp;&nbsp;&nbsp;&nbsp;1.22345 &#61; 12345 &times; 10<sup>-4</sup>. 
 	</p>
 	<p class="upper">
-		The term <em>floating point</em> refers to the fact that a number's radix point (<em>decimal point</em>, or, more commonly in computers, binary point) can "float"; that is, it can be placed anywhere relative to the significant digits of the number. This position is indicated as the exponent component, and thus the floating-point representation can be thought of as a kind of scientific notation.
-
-		A floating-point system can be used to represent, with a fixed number of digits, numbers of different orders of magnitude: e.g. the distance between galaxies or the diameter of an atomic nucleus can be expressed with the same unit of length. The result of this dynamic range is that the numbers that can be represented are not uniformly spaced; the difference between two consecutive representable numbers grows with the chosen scale.[1]
-
-		Over the years, a variety of floating-point representations have been used in computers. However, since the 1990s, the most commonly encountered representation is that defined by the IEEE 754 Standard.
-
-		The speed of floating-point operations, commonly measured in terms of FLOPS, is an important characteristic of a computer system, especially for applications that involve intensive mathematical calculations.
-
-		A floating-point unit (FPU, colloquially a math coprocessor) is a part of a computer system specially designed to carry out operations on floating-point numbers.
+		The term <em>floating point</em> refers to the fact that a number's radix point (<em>decimal point</em>, or, more commonly in computers, binary point) can "float"; that is, it can be placed anywhere relative to the significant digits of the number. This position is indicated as the exponent component, and thus the floating-point representation can be thought of as a kind of scientific notation.		
 	</p>
 	<h2>Floating-point numbers</h2>
-	<p id="indent">
-		A number representation specifies some way of encoding a number, usually as a string of digits.
-
-		There are several mechanisms by which strings of digits can represent numbers. In common mathematical notation, the digit string can be of any length, and the location of the radix point is indicated by placing an explicit "point" character (dot or comma) there. If the radix point is not specified, then the string implicitly represents an integer and the unstated radix point would be off the right-hand end of the string, next to the least significant digit. In fixed-point systems, a position in the string is specified for the radix point. So a fixed-point scheme might be to use a string of 8 decimal digits with the decimal point in the middle, whereby "00012345" would represent 0001.2345.
-
-		In scientific notation, the given number is scaled by a power of 10, so that it lies within a certain range—typically between 1 and 10, with the radix point appearing immediately after the first digit. The scaling factor, as a power of ten, is then indicated separately at the end of the number. For example, the orbital period of Jupiter's moon Io is 152,853.5047 seconds, a value that would be represented in standard-form scientific notation as 1.528535047×105 seconds.
-
+	<p>
 		Floating-point representation is similar in concept to scientific notation. Logically, a floating-point number consists of:
 	</p>
 	<ul>
@@ -48,9 +34,13 @@
 
 
 	</ul>
-	<p>
-		To derive the value of the floating-point number, the significand is multiplied by the base raised to the power of the exponent, equivalent to shifting the radix point from its implied position by a number of places equal to the value of the exponent—to the right if the exponent is positive or to the left if the exponent is negative.
-		Using base-10 (the familiar decimal notation) as an example, the number 152,853.5047, which has ten decimal digits of precision, is represented as the significand 1,528,535,047 together with 5 as the exponent. To determine the actual value, a decimal point is placed after the first digit of the significand and the result is multiplied by 10<sup>5</sup> to give 1.528535047×10<sup>5</sup>, or 152,853.5047. In storing such a number, the base (10) need not be stored, since it will be the same for the entire range of supported numbers, and can thus be inferred.</p>
+	<img src="img/813185305407270324.jpeg">
+	<a href="https://google.com.vn">Trang chủ</a>
 
+	<ul>
+    <li><a>Item 1</a></li>
+    <li><a>Item 2</a></li>
+    <li><a>Item 3</a></li>
+</ul>
 	</body>
 	</html>	
