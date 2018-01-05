@@ -29,7 +29,7 @@
 			var remainingLetter = str.slice(1, str.length + 1).toLowerCase();
 			return firstLetter + remainingLetter;
 		}
-		console.log(baiBon("welcome to Techmaster"));
+		console.log(baiBon("welcome to TECHMASTER"));
 
 		//Bài 5
 		function baiNam(intArray){
@@ -47,8 +47,12 @@
 					nameArray[i] = nameArray[i].toLowerCase();
 				}
 				var sortedArray = nameArray.sort();
+
+				for (i = 0; i < sortedArray.length; i++) {		
+					sortedArray[i] = baiBon(sortedArray[i]);
+				}
 			} 	
-			document.write("Kết quả bài tập 6: " + nameArray.sort() + "<br>");
+			document.write("Kết quả bài tập 6: " + sortedArray.sort() + "<br>");
 		}
 		console.log(baiSau(["Nam", "Anh", "Hoàng", "Linh", "Tuấn", "Minh"]));
 

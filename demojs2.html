@@ -4,9 +4,87 @@
 	<title>Loop</title>
 	<meta charset="utf-8">
 	<script type="text/javascript">
-		
+		//Bài 1
+		function baiMot(n) {
+			var result = 1;
+			if (n>= result) {
+				for (var i = 1; i <= n; i++) {
+					result *= i;
+				}
+				return result;
+			}
+			
+			return 0;
+		}
+		console.log(baiMot(16));
+
+		//Bài 2
+		function baiHai(str) {
+			var result = "";
+			for (var i = str.length - 1; i >= 0; i--) {
+				result += (str[i]);
+			}
+
+			return result;
+		}
+		console.log(baiHai("Masterchief"));
+
+		//Bài 3
+		function duplicate(strNum) {
+			var result = "";
+			if (!isNaN(strNum)) {
+				for (var i = 1; i <= 9; i++) {
+					result += strNum + "-";
+				}
+				result += strNum;
+			}
+			else result = "Không phải là chuỗi số";
+			return result
+		}
+		console.log(duplicate("123"));
+
+		//Bài 4
+		function baiBon(nameArray) {
+			var result = [];
+			for (var i = 0; i <= nameArray.length-1; i++) {
+				var firstLetter = nameArray[i].charAt(0).toUpperCase();
+				var remainingLetter = nameArray[i].slice(1, nameArray[i].length + 1).toLowerCase();
+				nameArray[i] = firstLetter + remainingLetter;
+			}
+			
+			var result = nameArray.sort();
+			for (var i = 1; i <= result.length-1; i++) {
+				document.write(i + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + result[i] + "<br>");
+			}
+		}
+		console.log(baiBon(["Nam", "Anh", "Hoàng", "Linh", "Tuấn", "Minh"]));
+
+		//Bài 5
+		function baiNam(numArray) {
+			var result = [];
+			for (var i = 0; i <= numArray.length - 1; i++) {
+				if (isNaN(numArray[i])) {
+					continue;
+				}
+				result.push(numArray[i] * 2);
+			}
+			return result;
+		}
+		console.log(baiNam([20, 5, 17, 9, 88, 37, 54]));
+
+		//Bài 7
+		function baiSau(numArray) {
+			var result = [];
+			for (var i = 0; i <= numArray.length - 1; i++) {
+				if (isNaN(numArray[i])) {
+					continue;
+				}
+				result.push(numArray[i] % 2);
+			}
+			return result;
+		}
+		console.log(baiSau([20, 5, 17, 9, 88, 37, 54]));
 	</script>
-</head>
 <body>
 
 </body>
