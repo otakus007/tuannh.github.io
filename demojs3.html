@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>If Condition</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		//Bài 1
+		function baiMot(a, b){
+			if (isNaN(a) || isNaN(b)) {
+				return "Dữ liệu chưa hợp lệ";
+			}
+			else {
+				return Math.max(a, b);
+			}
+		}
+		console.log(baiMot("aaa", 8));
+		console.log(baiMot(4, 8));
+
+		//Bài 2
+		function baiHai(n) {
+			var result = 1;
+			if (Number.isInteger(n) && n>0) {
+				if (n >= result) {
+					for (var i = 1; i <= n; i++) {
+						result *= i;
+					}
+					return result;			
+				}
+			}			
+			return "Dữ liệu chưa hợp lệ";
+		}
+		console.log(baiHai("aaa"));
+		console.log(baiHai(-5));
+		console.log(baiHai(9));
+
+		//Bài 4
+		function baiBa(numArray) {
+			var result = [];
+			var sortedArray = (numArray.sort(function(a, b) { return b - a; }))
+			for (var i = 0; i <= sortedArray.length - 1; i++) {
+				if (isNaN(sortedArray[i])) {
+					continue;
+				}
+				if (sortedArray[i] % 2 == 0) {
+					result.push(sortedArray[i]);
+				}
+			}
+			return result;
+		}
+		console.log(baiBa([20, 5, 17, 9, 88, 37, 54]));
+
+		//Bài 5
+		function baiBon() {
+			var name = prompt("Nhập tên đăng nhập:", "");
+			var pwd = prompt("Nhập mật khẩu:", "");
+			var cfm = prompt("Nhập lại mật khẩu:", "");
+
+			var person = {};
+			person.username = name;
+			person.password = pwd;
+			person.confirm = cfm;
+
+			var result = "";
+			if (person.username == "" || person.username.length > 20) {
+				result = "Tên đăng nhập chưa hợp lệ";
+			}
+
+			if (person.password.length < 6 || person.password.length >32) {
+				result = "Mật khẩu chưa hợp lệ";
+			}
+
+			if (person.password != person.confirm) {
+				result = "Mật khẩu và Nhập lại mật khẩu phải giống nhau";
+			}
+
+			if (result != "") {
+				document.write(result);
+			}
+			else {
+				document.write("Cám ơn bạn " + person.username + " đã đăng kí.");
+			}
+		}
+		
+		console.log(baiBon());
+
+		</script>
+	</head>
+	<body>
+
+	</body>
+	</html>
