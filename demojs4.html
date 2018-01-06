@@ -1,60 +1,130 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<title>If Condition 2</title>
 	<script type="text/javascript">
 		//Bài 1
 		function baiMot() {
-			var now = new Date(); 
-			var date = now.getDate();   
-			var month = now.getMonth() + 1;   
-			var year = now.getFullYear(); 
+			var now = new Date();
+			var date = now.getDate();
+			var month = now.getMonth() + 1;
+			var year = now.getFullYear();
 			var season;
 			switch (month) {
-				case 1, 2, 3: 
+				case 1:
+				case 2:
+				case 3:
 					season = "mùa xuân";
 					break;
-				case 4, 5, 6: 
+				case 4:
+				case 5:
+				case 6:
 					season = "mùa hè";
 					break;
-				case 7, 8, 9: 
+				case 7:
+				case 8:
+				case 9:
 					season = "mùa thu";
 					break;
-				case 10, 11, 12: 
+				case 10:
+				case 11:
+				case 12:
 					season = "mùa đông";
 					break;
-
 			}
-
 			document.write("Hôm nay là ngày " + date + " tháng " + month + " năm " + year + " và là " + season + ".<br>")
 
 		}
 		console.log(baiMot());
 
 		//Bài 2
-		function baiHai() {
+		function baiHai(str) {
+			var result = "";
+			if (typeof str === "number") {
+				result = str.toString();
+			} else {
+				result = str;
+				if (result.length < 10) {
+					return result;
 
+				} else {
+					result = result.substr(0, 10) + "...";
+					return result;
+				}
+			}
 		}
+		console.log(baiHai(123));
+		console.log(baiHai("123"));
+		console.log(baiHai("1234567890-="));
+
+		//Bài 3
+		function baiBa(x) {
+			if (typeof x !== "number" || x < 0 || x > 10) return "Dữ liệu không hợp lệ";
+			if (0 <= x && x < 4) return "F";
+			if (4 <= x && x < 5.5) return "D";
+			if (5.5 <= x && x < 7) return "C";
+			if (7 <= x && x < 8.5) return "B";
+			if (8.5 <= x && x < 10) return "A";
+		}
+		console.log(baiBa("abc"));
+		console.log(baiBa(100));
+		console.log(baiBa(8));
 
 		//Bài 4
+		function translate(language) {
+			var hello = "";
+			switch (language) {
+				case "en":
+					hello = "Hello";
+					break;
+				case "cn":
+					hello = "Nǐ hǎo";
+					break;
+				case "fr":
+					hello = "Bonjour";
+					break;
+				case "jp":
+					hello = "Kon'nichiwa";
+					break;
+				case "es":
+					hello = "Hola";
+					break;
+				default:
+					hello = "Xin chào";
+			}
+		}
+
+		//Bài 5
+		function baiNam(boolArray) {
+			for (var i = 0; i < boolArray.length; i++) {
+				if (typeof boolArray[i] === "boolean" && boolArray[i] == true) {
+					return i + 1;
+				}
+			}
+		}
 
 		//Bài 6
 		function baiSau() {
-			for (var i = 1; i <= 100; i++) {
-				if (i % 2 == 0) {
+			var i = 1;
+			while (i <= 100) {
+				while (i % 2 == 0 && i <= 100) {
 					document.write("<p style=\'color: blue\'>" + i + "</p>");
+					i++;
 				}
-				else {
+				while (i % 2 == 1 && i <= 99) {
 					document.write("<p style=\'color: red\'>" + i + "</p>");
+					i++;
 				}
 			}
 		}
 		console.log(baiSau());
-
 	</script>
 </head>
+
 <body>
 
 </body>
+
 </html>
