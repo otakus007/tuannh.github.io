@@ -1,107 +1,147 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Function</title>
 	<meta charset="utf-8">
-	<script type="text/javascript">		
-		
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+	    crossorigin="anonymous">
+
+	<script type="text/javascript">
 		//Bài 1
-		function baiMot(x){
-			return x*x;					
+		function baiMot(x) {
+			var result = x * x;
+			document.getElementById("bai1").innerHTML = result.toString();
+			return result;
 		}
 		console.log(baiMot(5));
 
 		//Bài 2
-		function baiHai(a, b, c){
-			return baiMot(3*a + 2*b - c);
+		function baiHai(a, b, c) {
+			var result = baiMot(3 * a + 2 * b - c);
+			document.getElementById("bai2").innerHTML = result;
+			return result;
 		}
 		console.log(baiHai(1, 2, 5));
 
 		//Bài 3
-		function baiBa(str){
-			return result = str.substr(0, 10)+"..."
+		function baiBa(str) {
+			var result = str.substr(0, 10) + "...";
+			document.getElementById("bai3").innerHTML = result;
+			return result;
 		}
 		console.log(baiBa("Hello world, this is a message from javascript"));
 
 		//Bài 4
-		function baiBon(str){
+		function baiBon(str) {
 			var firstLetter = str.charAt(0).toUpperCase();
 			var remainingLetter = str.slice(1, str.length + 1).toLowerCase();
-			return firstLetter + remainingLetter;
+			var result = firstLetter + remainingLetter;
+			document.getElementById("bai4").innerHTML = result;
+			return result;
 		}
 		console.log(baiBon("welcome to TECHMASTER"));
 
 		//Bài 5
-		function baiNam(intArray){
+		function baiNam(intArray) {
 			if (Array.isArray(intArray)) {
-				var sortedArray = (intArray.sort(function(a, b) { return a - b; }));
-			}			
-			return sortedArray[0];
+				var sortedArray = (intArray.sort(function (a, b) {
+					return a - b;
+				}));
+			}
+			var result = sortedArray[0];
+			document.getElementById("bai5").innerHTML = result;
+			return result;
 		}
 		console.log(baiNam([20, 5, 17, 9, 88, 37, 54]));
 
 		//Bài 6
-		function baiSau(nameArray){
+		function baiSau(nameArray) {
 			if (Array.isArray(nameArray)) {
-				for (i = 0; i < nameArray.length; i++) {		
+				for (i = 0; i < nameArray.length; i++) {
 					nameArray[i] = nameArray[i].toLowerCase();
 				}
 				var sortedArray = nameArray.sort();
 
-				for (i = 0; i < sortedArray.length; i++) {		
+				for (i = 0; i < sortedArray.length; i++) {
 					sortedArray[i] = baiBon(sortedArray[i]);
 				}
-			} 	
-			document.write("Kết quả bài tập 6: " + sortedArray.sort() + "<br>");
+			}
+			var result = sortedArray.sort();
+			document.getElementById("bai6").innerHTML = result;
+			return result;
 		}
 		console.log(baiSau(["Nam", "Anh", "Hoàng", "Linh", "Tuấn", "Minh"]));
 
 		//Bài 7
-		function baiBay(){
+		function baiBay() {
 			var teacher = {
 				firstName: "Kim",
 				lastName: "Dung",
 				age: 30,
-				say: function(){}
+				say: function () {}
 			}
 
 			var student = {
 				firstName: "Hoàng",
 				lastName: "Long",
 				age: 20,
-				say: function(){}
+				say: function () {}
 			}
 
 			var parent = {
 				firstName: "Trần Bình",
 				lastName: "Minh",
 				age: 60,
-				say: function(){}
+				say: function () {}
 			}
 
-			var aboutMe = function(){
-				document.write("Xin chào, tôi là " + this.firstName + " " + this.lastName + ". Năm nay tôi " + this.age + " tuổi.<br>");
+			var aboutMe = function () {
+				return result = "Xin chào, tôi là " + this.firstName + " " + this.lastName + ". Năm nay tôi " + this.age +
+					" tuổi.<br>";
 			}
 
 			teacher.say = aboutMe;
-			teacher.say();
 
 			student.say = aboutMe;
-			student.say();
 
 			parent.say = aboutMe;
-			parent.say();
+
+			document.getElementById("bai7").innerHTML = teacher.say() + student.say() + parent.say();
 		}
-		console.log(baiBay());		
+		console.log(baiBay());
 	</script>
 </head>
+
 <body>
-	<button onclick="myFunction()">Try it</button>
-	<button onclick="myFunction()">Try it</button>
-	<button onclick="myFunction()">Try it</button>
-	<button onclick="myFunction()">Try it</button>
-	<button onclick="myFunction()">Try it</button>
-	<button onclick="myFunction()">Try it</button>
-	<button onclick="myFunction()">Try it</button>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	    crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	    crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+	    crossorigin="anonymous"></script>
+
+	<button type="button" class="btn btn-primary" onclick="baiMot(5)">Bài 1</button>
+	<p id="bai1"></p>
+
+	<button type="button" class="btn btn-primary" onclick="baiHai(1, 2, 5)">Bài 2</button>
+	<p id="bai2"></p>
+
+	<button type="button" class="btn btn-primary" onclick="baiBa('Hello world, this is a message from javascript')">Bài 3</button>
+	<p id="bai3"></p>
+
+	<button type="button" class="btn btn-primary" onclick="baiBon('welcome to TECHMASTER')">Bài 4</button>
+	<p id="bai4"></p>
+
+	<button type="button" class="btn btn-primary" onclick="baiNam([20, 5, 17, 9, 88, 37, 54])">Bài 5</button>
+	<p id="bai5"></p>
+
+	<button type="button" class="btn btn-primary" onclick="baiSau(['Nam', 'Anh', 'Hoàng', 'Linh', 'Tuấn', 'Minh'])">Bài 6</button>
+	<p id="bai6"></p>
+
+	<button type="button" class="btn btn-primary" onclick="baiBay()">Bài 7</button>
+	<p id="bai7"></p>
 </body>
+
 </html>

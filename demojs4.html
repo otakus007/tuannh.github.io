@@ -4,6 +4,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>If Condition 2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+	    crossorigin="anonymous">
 	<script type="text/javascript">
 		//Bài 1
 		function baiMot() {
@@ -12,6 +15,7 @@
 			var month = now.getMonth() + 1;
 			var year = now.getFullYear();
 			var season;
+			var result;
 			switch (month) {
 				case 1:
 				case 2:
@@ -34,8 +38,9 @@
 					season = "mùa đông";
 					break;
 			}
-			document.write("Hôm nay là ngày " + date + " tháng " + month + " năm " + year + " và là " + season + ".<br>")
-
+			result = "Hôm nay là ngày " + date + " tháng " + month + " năm " + year + " và là " + season + ".<br>";
+			document.getElementById("bai1").innerHTML = result;
+			return result;
 		}
 		console.log(baiMot());
 
@@ -44,16 +49,16 @@
 			var result = "";
 			if (typeof str === "number") {
 				result = str.toString();
+			} else result = str;
+			if (result.length < 10) {
+				document.getElementById("bai2").innerHTML = result;
+				return result;
 			} else {
-				result = str;
-				if (result.length < 10) {
-					return result;
-
-				} else {
-					result = result.substr(0, 10) + "...";
-					return result;
-				}
+				result = result.substr(0, 10) + "...";
+				document.getElementById("bai2").innerHTML = result;
+				return result;
 			}
+			return result;
 		}
 		console.log(baiHai(123));
 		console.log(baiHai("123"));
@@ -61,12 +66,15 @@
 
 		//Bài 3
 		function baiBa(x) {
-			if (typeof x !== "number" || x < 0 || x > 10) return "Dữ liệu không hợp lệ";
-			if (0 <= x && x < 4) return "F";
-			if (4 <= x && x < 5.5) return "D";
-			if (5.5 <= x && x < 7) return "C";
-			if (7 <= x && x < 8.5) return "B";
-			if (8.5 <= x && x < 10) return "A";
+			var result;
+			if (typeof x !== "number" || x < 0 || x > 10) result = "Dữ liệu không hợp lệ";
+			if (0 <= x && x < 4) result = "F";
+			if (4 <= x && x < 5.5) result = "D";
+			if (5.5 <= x && x < 7) result = "C";
+			if (7 <= x && x < 8.5) result = "B";
+			if (8.5 <= x && x < 10) result = "A";
+			document.getElementById("bai3").innerHTML = result;
+			return result;
 		}
 		console.log(baiBa("abc"));
 		console.log(baiBa(100));
@@ -94,37 +102,69 @@
 				default:
 					hello = "Xin chào";
 			}
+			document.getElementById("bai4").innerHTML = hello;
+			return hello;
 		}
+		console.log(translate('jp'));
 
 		//Bài 5
 		function baiNam(boolArray) {
+			var result;
 			for (var i = 0; i < boolArray.length; i++) {
 				if (typeof boolArray[i] === "boolean" && boolArray[i] == true) {
-					return i + 1;
+					result = i + 1;
+					break;
 				}
 			}
+			document.getElementById("bai5").innerHTML = "Vị trí giá trị true xuất hiện đầu tiên là: " + result;
 		}
+		console.log(baiNam([false, false, false, true, false, true, false, true]));
 
 		//Bài 6
 		function baiSau() {
 			var i = 1;
+			var result = "";
 			while (i <= 100) {
 				while (i % 2 == 0 && i <= 100) {
-					document.write("<p style=\'color: blue\'>" + i + "</p>");
+					result += "<p style=\'color: blue\'>" + i + "</p>";
 					i++;
 				}
 				while (i % 2 == 1 && i <= 99) {
-					document.write("<p style=\'color: red\'>" + i + "</p>");
+					result += "<p style=\'color: red\'>" + i + "</p>";
 					i++;
 				}
 			}
+			document.getElementById("bai6").innerHTML = result;
 		}
 		console.log(baiSau());
 	</script>
 </head>
 
 <body>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	    crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	    crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+	    crossorigin="anonymous"></script>
 
+	<button type="button" class="btn btn-primary" onclick="baiMot()">Bài 1</button>
+	<p id="bai1"></p>
+
+	<button type="button" class="btn btn-primary" onclick="baiHai('1234567890-=')">Bài 2</button>
+	<p id="bai2"></p>
+
+	<button type="button" class="btn btn-primary" onclick="baiBa(8)">Bài 3</button>
+	<p id="bai3"></p>
+
+	<button type="button" class="btn btn-primary" onclick="translate('jp')">Bài 4</button>
+	<p id="bai4"></p>
+
+	<button type="button" class="btn btn-primary" onclick="baiNam([false, false, false, true, false, true, false, true])">Bài 5</button>
+	<p id="bai5"></p>
+
+	<button type="button" class="btn btn-primary" onclick="baiSau()">Bài 6</button>
+	<p id="bai6"></p>
 </body>
 
 </html>

@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>If Condition</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+	    crossorigin="anonymous">
+
 	<script type="text/javascript">
 		//Bài 1
-		function baiMot(a, b){
+		function baiMot(a, b) {
+			var result;
 			if (isNaN(a) || isNaN(b)) {
-				return "Dữ liệu chưa hợp lệ";
-			}
-			else {
-				return Math.max(a, b);
+				result = "Dữ liệu chưa hợp lệ";
+				document.getElementById("bai1").innerHTML = result;
+				return result;
+			} else {
+				result = Math.max(a, b);
+				document.getElementById("bai1").innerHTML = result;
+				return result;
 			}
 		}
 		console.log(baiMot("aaa", 8));
@@ -19,15 +28,18 @@
 		//Bài 2
 		function baiHai(n) {
 			var result = 1;
-			if (Number.isInteger(n) && n>0) {
+			if (Number.isInteger(n) && n > 0) {
 				if (n >= result) {
 					for (var i = 1; i <= n; i++) {
 						result *= i;
 					}
-					return result;			
+					document.getElementById("bai2").innerHTML = result;
+					return result;
 				}
-			}			
-			return "Dữ liệu chưa hợp lệ";
+			}
+			result = "Dữ liệu chưa hợp lệ";
+			document.getElementById("bai2").innerHTML = result;
+			return result;
 		}
 		console.log(baiHai("aaa"));
 		console.log(baiHai(-5));
@@ -36,7 +48,9 @@
 		//Bài 4
 		function baiBa(numArray) {
 			var result = [];
-			var sortedArray = (numArray.sort(function(a, b) { return b - a; }))
+			var sortedArray = (numArray.sort(function (a, b) {
+				return b - a;
+			}))
 			for (var i = 0; i <= sortedArray.length - 1; i++) {
 				if (isNaN(sortedArray[i])) {
 					continue;
@@ -45,6 +59,7 @@
 					result.push(sortedArray[i]);
 				}
 			}
+			document.getElementById("bai3").innerHTML = result;
 			return result;
 		}
 		console.log(baiBa([20, 5, 17, 9, 88, 37, 54]));
@@ -65,7 +80,7 @@
 				result = "Tên đăng nhập chưa hợp lệ";
 			}
 
-			if (person.password.length < 6 || person.password.length >32) {
+			if (person.password.length < 6 || person.password.length > 32) {
 				result = "Mật khẩu chưa hợp lệ";
 			}
 
@@ -74,18 +89,36 @@
 			}
 
 			if (result != "") {
-				document.write(result);
-			}
-			else {
-				document.write("Cám ơn bạn " + person.username + " đã đăng kí.");
+				document.getElementById("bai4").innerHTML = result;
+			} else {
+				result = "Cám ơn bạn " + person.username + " đã đăng kí.";
+				document.getElementById("bai4").innerHTML = result;
 			}
 		}
-		
+
 		console.log(baiBon());
+	</script>
+</head>
 
-		</script>
-	</head>
-	<body>
+<body>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	    crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	    crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+	    crossorigin="anonymous"></script>
 
-	</body>
-	</html>
+	<button type="button" class="btn btn-primary" onclick="baiMot(4, 8)">Bài 1</button>
+	<p id="bai1"></p>
+
+	<button type="button" class="btn btn-primary" onclick="baiHai(9)">Bài 2</button>
+	<p id="bai2"></p>
+
+	<button type="button" class="btn btn-primary" onclick="baiBa([20, 5, 17, 9, 88, 37, 54])">Bài 3</button>
+	<p id="bai3"></p>
+
+	<button type="button" class="btn btn-primary" onclick="baiBon()">Bài 4</button>
+	<p id="bai4"></p>
+</body>
+
+</html>

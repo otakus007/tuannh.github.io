@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Loop</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+	    crossorigin="anonymous">
+
 	<script type="text/javascript">
 		//Bài 1
 		function baiMot(n) {
 			var result = 1;
-			if (n>= result) {
+			if (n >= result) {
 				for (var i = 1; i <= n; i++) {
 					result *= i;
 				}
+				document.getElementById("bai1").innerHTML = result;
 				return result;
 			}
-			
 			return 0;
 		}
 		console.log(baiMot(16));
@@ -24,7 +29,7 @@
 			for (var i = str.length - 1; i >= 0; i--) {
 				result += (str[i]);
 			}
-
+			document.getElementById("bai2").innerHTML = result;
 			return result;
 		}
 		console.log(baiHai("Masterchief"));
@@ -37,25 +42,27 @@
 					result += strNum + "-";
 				}
 				result += strNum;
-			}
-			else result = "Không phải là chuỗi số";
-			return result
+			} else result = "Không phải là chuỗi số";
+			document.getElementById("bai3").innerHTML = result;
+			return result;
 		}
 		console.log(duplicate("123"));
 
 		//Bài 4
 		function baiBon(nameArray) {
-			var result = [];
-			for (var i = 0; i <= nameArray.length-1; i++) {
+			var sorted = [];
+			for (var i = 0; i <= nameArray.length - 1; i++) {
 				var firstLetter = nameArray[i].charAt(0).toUpperCase();
 				var remainingLetter = nameArray[i].slice(1, nameArray[i].length + 1).toLowerCase();
 				nameArray[i] = firstLetter + remainingLetter;
 			}
-			
-			var result = nameArray.sort();
-			for (var i = 1; i <= result.length-1; i++) {
-				document.write(i + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + result[i] + "<br>");
+
+			sorted = nameArray.sort();
+			var result = "";
+			for (var i = 1; i <= sorted.length - 1; i++) {
+				result += i + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + sorted[i] + "<br>";
 			}
+			document.getElementById("bai4").innerHTML = result;
 		}
 		console.log(baiBon(["Nam", "Anh", "Hoàng", "Linh", "Tuấn", "Minh"]));
 
@@ -68,11 +75,12 @@
 				}
 				result.push(numArray[i] * 2);
 			}
+			document.getElementById("bai5").innerHTML = result;
 			return result;
 		}
 		console.log(baiNam([20, 5, 17, 9, 88, 37, 54]));
 
-		//Bài 7
+		//Bài 6
 		function baiSau(numArray) {
 			var result = [];
 			for (var i = 0; i <= numArray.length - 1; i++) {
@@ -81,11 +89,37 @@
 				}
 				result.push(numArray[i] % 2);
 			}
+			document.getElementById("bai6").innerHTML = result;
 			return result;
 		}
 		console.log(baiSau([20, 5, 17, 9, 88, 37, 54]));
 	</script>
-<body>
 
-</body>
+	<body>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		    crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		    crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+		    crossorigin="anonymous"></script>
+
+		<button type="button" class="btn btn-primary" onclick="baiMot(16)">Bài 1</button>
+		<p id="bai1"></p>
+
+		<button type="button" class="btn btn-primary" onclick="baiHai('Masterchief')">Bài 2</button>
+		<p id="bai2"></p>
+
+		<button type="button" class="btn btn-primary" onclick="duplicate('123')">Bài 3</button>
+		<p id="bai3"></p>
+
+		<button type="button" class="btn btn-primary" onclick="baiBon(['Nam', 'Anh', 'Hoàng', 'Linh', 'Tuấn', 'Minh'])">Bài 4</button>
+		<p id="bai4"></p>
+
+		<button type="button" class="btn btn-primary" onclick="baiNam([20, 5, 17, 9, 88, 37, 54])">Bài 5</button>
+		<p id="bai5"></p>
+
+		<button type="button" class="btn btn-primary" onclick="baiSau([20, 5, 17, 9, 88, 37, 54])">Bài 6</button>
+		<p id="bai6"></p>
+	</body>
+
 </html>
