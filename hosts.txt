@@ -1,9 +1,9 @@
 # This hosts file is a merged collection of hosts from reputable sources,
 # with a dash of crowd sourcing via Github
 #
-# Date: 23 June 2019 01:19:16 (UTC)
+# Date: 05 July 2019 01:23:32 (UTC)
 # Extensions added to this file: fakenews, gambling
-# Number of unique domains: 43,742
+# Number of unique domains: 43,844
 #
 # Fetch the latest version of this file: https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts
 # Project home page: https://github.com/StevenBlack/hosts
@@ -2497,7 +2497,7 @@ ff02::3 ip6-allhosts
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Fri, 21 Jun 2019 at 05:47:39 GMT
+# Last updated: Wed, 03 Jul 2019 at 14:12:58 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -5148,6 +5148,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 picture-uploads.com
 0.0.0.0 pigredoben12.sytes.net
 0.0.0.0 pilltabletsrxbargain.net
+0.0.0.0 play6932.fuckingmonday113.agency
 0.0.0.0 pop.net21pk.com
 0.0.0.0 postbox.mos.ru
 0.0.0.0 post.netchina.com.cn
@@ -5181,6 +5182,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 readheadstick.biz
 0.0.0.0 readyupdate.thelatestmostreadytocontentgetnowfast.top
 0.0.0.0 regardens.info
+0.0.0.0 reward5363.hardmonday53.agency
 0.0.0.0 reward-survey.net
 0.0.0.0 rickrolling.com
 0.0.0.0 rocks.io
@@ -7985,6 +7987,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.deviantart.com
 0.0.0.0 ads-dev.youporn.com
 0.0.0.0 ads.digitalacre.com
+0.0.0.0 ads.digitalcaramel.com
 0.0.0.0 ads.digital-digest.com
 0.0.0.0 ads.digitalhealthcare.com
 0.0.0.0 ads.digitalmedianet.com
@@ -9430,6 +9433,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 asn.advolution.de
 0.0.0.0 asn.cunda.advolution.biz
 0.0.0.0 aspesa.info
+0.0.0.0 a.spolecznosci.net
 0.0.0.0 a.ss34.on9mail.com
 0.0.0.0 assets.applovin.com
 0.0.0.0 assets.igapi.com
@@ -9921,6 +9925,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdnaws.mobidea.com
 0.0.0.0 cdn.banners.scubl.com
 0.0.0.0 cdn.bestssaker.com
+0.0.0.0 cdn.braun634.com
 0.0.0.0 cdn.carbonads.com
 0.0.0.0 cdn.classicdanube.info
 0.0.0.0 cdn.constafun.com
@@ -10501,6 +10506,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dqs001.adtech.fr
 0.0.0.0 dqs001.adtech.us
 0.0.0.0 dra.amazon-adsystem.com
+0.0.0.0 drecentreshu.info
 0.0.0.0 drmcmm.baidu.com
 0.0.0.0 drowle.com
 0.0.0.0 dr.soso.com
@@ -10549,6 +10555,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 e.company-target.com
 0.0.0.0 e.crashlytics.com
 0.0.0.0 ecs1.engageya.com
+0.0.0.0 edchargina.pro
 0.0.0.0 eddamedia.linkpulse.com
 0.0.0.0 edge.bnmla.com
 0.0.0.0 edge.quantserve.com
@@ -12315,6 +12322,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 panel.adtify.pl
 0.0.0.0 paperg.com
 0.0.0.0 paques-2016.offre-exceptionnelle.xyz
+0.0.0.0 parronnotandone.com
+0.0.0.0 parronnotandone.info
 0.0.0.0 parserworld.info
 0.0.0.0 parskabab.com
 0.0.0.0 partner01.oingo.com
@@ -13205,6 +13214,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 spinbox.macworld.com
 0.0.0.0 spinbox.techtracker.com
 0.0.0.0 spin.spinbox.net
+0.0.0.0 spolecznosci.mgr.consensu.org
+0.0.0.0 spolecznosci.net
 0.0.0.0 sponsor1.com
 0.0.0.0 sponsors.behance.com
 0.0.0.0 sponsors.ezgreen.com
@@ -13232,6 +13243,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ssp.adplus.co.id
 0.0.0.0 ssp.anyclip-media.com
 0.0.0.0 sspcash.adxcore.com
+0.0.0.0 s.spolecznosci.net
 0.0.0.0 s.spoutable.com
 0.0.0.0 ssp.streamrail.net
 0.0.0.0 staging.snip.answers.com
@@ -13787,6 +13799,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 vcdn.adnxs.com
 0.0.0.0 vclick.adbrite.com
 0.0.0.0 veirregnant.club
+0.0.0.0 vendorlist.consensu.org
 0.0.0.0 venetia.iad.appboy.com
 0.0.0.0 venus.goclick.com
 0.0.0.0 versionsupport.set2updatenowsafesystemset4now.info
@@ -13817,6 +13830,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 videos.video-loader.com
 0.0.0.0 video.theparentingvillage.com
 0.0.0.0 vidnline.com
+0.0.0.0 vidroll.ru
 0.0.0.0 view.atdmt.com
 0.0.0.0 view.avenuea.com
 0.0.0.0 view.binlayer.com
@@ -15056,6 +15070,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.verypositiveus.com
 0.0.0.0 www.via22.net
 0.0.0.0 www.vibrantmedia.com
+0.0.0.0 www.videoconverterhd.com
 0.0.0.0 www.video-game-rewards-central.com
 0.0.0.0 www.videogamerewardscentral.com
 0.0.0.0 www.videohube.eu
@@ -28453,8 +28468,8 @@ ff02::3 ip6-allhosts
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Wed, 05 Jun 2019 09:11:26 GMT
-# entries:        2950
+# last updated:   Thu, 04 Jul 2019 12:00:47 GMT
+# entries:        2984
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 # this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&mimetype=plaintext&useip=0.0.0.0
@@ -28462,7 +28477,7 @@ ff02::3 ip6-allhosts
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Mon, 28 Jun 1999 00:00:00
+# start date:    Sat, 10 Jul 1999 00:00:00
 0.0.0.0 101com.com
 0.0.0.0 101order.com
 0.0.0.0 123found.com
@@ -28628,7 +28643,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 adland.ru
 0.0.0.0 adledge.com
 0.0.0.0 adlegend.com
-0.0.0.0 adlightning.com
 0.0.0.0 adloox.com
 0.0.0.0 adlooxtracking.com
 0.0.0.0 adlure.net
@@ -28676,6 +28690,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adrotic.girlonthenet.com
 0.0.0.0 adrta.com
 0.0.0.0 ads-click.com
+0.0.0.0 ads-game-187f4.firebaseapp.com
 0.0.0.0 ads-trk.vidible.tv
 0.0.0.0 ads-twitter.com
 0.0.0.0 ads.activestate.com
@@ -29072,6 +29087,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 beamincrease.com
 0.0.0.0 bebi.com
 0.0.0.0 bedsbreath.com
+0.0.0.0 beemray.com
 0.0.0.0 begun.ru
 0.0.0.0 behavioralengine.com
 0.0.0.0 belstat.com
@@ -29141,6 +29157,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 calculatorcamera.com
 0.0.0.0 callousbrake.com
 0.0.0.0 callrail.com
+0.0.0.0 callstats.io
 0.0.0.0 campaign.bharatmatrimony.com
 0.0.0.0 caniamedia.com
 0.0.0.0 capablecows.com
@@ -29173,7 +29190,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 cheerfulrange.com
 0.0.0.0 chewcoat.com
 0.0.0.0 chickensstation.com
-0.0.0.0 chiefcurrent.com
 0.0.0.0 chinsnakes.com
 0.0.0.0 chitika.net
 0.0.0.0 christingel.com
@@ -29217,12 +29233,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 cloudcoins.biz
 0.0.0.0 clrstm.com
 0.0.0.0 cluster.adultworld.com
-0.0.0.0 cml.sad.ukrd.com
 0.0.0.0 cnt.spbland.ru
 0.0.0.0 code-server.biz
 0.0.0.0 cognitiv.ai
 0.0.0.0 cointraffic.io
 0.0.0.0 colonize.com
+0.0.0.0 colpirio.com
 0.0.0.0 comclick.com
 0.0.0.0 comfortablecheese.com
 0.0.0.0 commindo-media-ressourcen.de
@@ -29327,6 +29343,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dispensablestranger.com
 0.0.0.0 displayadsmedia.com
 0.0.0.0 dk4ywix.com
+0.0.0.0 dmp.mall.tv
 0.0.0.0 dmtracker.com
 0.0.0.0 dmtracking.alibaba.com
 0.0.0.0 dmtracking2.alibaba.com
@@ -29378,6 +29395,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 emediate.eu
 0.0.0.0 emerse.com
 0.0.0.0 emetriq.de
+0.0.0.0 emltrk.com
+0.0.0.0 en25.com
 0.0.0.0 encouragingwilderness.com
 0.0.0.0 endurableshop.com
 0.0.0.0 enginenetwork.com
@@ -29413,7 +29432,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 exogripper.com
 0.0.0.0 exosrv.com
 0.0.0.0 experianmarketingservices.digital
-0.0.0.0 experteerads.com
 0.0.0.0 exponea.com
 0.0.0.0 express-submit.de
 0.0.0.0 eyeblaster.com
@@ -29491,6 +29509,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 globe7.com
 0.0.0.0 globus-inter.com
 0.0.0.0 glossysense.com
+0.0.0.0 gml.email
 0.0.0.0 go-clicks.de
 0.0.0.0 go-mpulse.net
 0.0.0.0 go-rank.de
@@ -29603,6 +29622,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 innovid.com
 0.0.0.0 inquisitiveinvention.com
 0.0.0.0 inringtone.com
+0.0.0.0 insgly.net
 0.0.0.0 insightexpress.com
 0.0.0.0 inspectlet.com
 0.0.0.0 inspectorclick.com
@@ -29613,6 +29633,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 intentmedia.com
 0.0.0.0 intentmedia.net
 0.0.0.0 interactive.forthnet.gr
+0.0.0.0 intercom-mail.com
 0.0.0.0 intergi.com
 0.0.0.0 internetfuel.com
 0.0.0.0 interreklame.de
@@ -29627,6 +29648,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ipro.com
 0.0.0.0 iqm.com
 0.0.0.0 ireklama.cz
+0.0.0.0 is-tracking-pixel-api-prod.appspot.com
 0.0.0.0 itfarm.com
 0.0.0.0 itop.cz
 0.0.0.0 its-that-easy.com
@@ -29661,6 +29683,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 knorex.com
 0.0.0.0 komoona.com
 0.0.0.0 kompasads.com
+0.0.0.0 krxd.net
+0.0.0.0 l1.britannica.com
 0.0.0.0 lakequincy.com
 0.0.0.0 laughablecopper.com
 0.0.0.0 laughcloth.com
@@ -29676,6 +29700,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 lettucelimit.com
 0.0.0.0 levelrate.de
 0.0.0.0 lfstmedia.com
+0.0.0.0 li.alibris.com
+0.0.0.0 li.azstarnet.com
+0.0.0.0 li.dailycaller.com
+0.0.0.0 li.gatehousemedia.com
+0.0.0.0 li.gq.com
+0.0.0.0 li.hearstmags.com
+0.0.0.0 li.livingsocial.com
+0.0.0.0 li.mw.drhinternet.net
+0.0.0.0 li.onetravel.com
+0.0.0.0 li.patheos.com
+0.0.0.0 li.pmc.com
+0.0.0.0 li.purch.com
+0.0.0.0 li.realtor.com
+0.0.0.0 li.walmart.com
+0.0.0.0 li.ziffimages.com
 0.0.0.0 liadm.com
 0.0.0.0 liftdna.com
 0.0.0.0 ligatus.com
@@ -29792,6 +29831,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mixpanel.com
 0.0.0.0 mixtraffic.com
 0.0.0.0 mlm.de
+0.0.0.0 mltrk.io
 0.0.0.0 mmismm.com
 0.0.0.0 mmtro.com
 0.0.0.0 moat.com
@@ -29825,7 +29865,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 mylink-today.com
 0.0.0.0 mymoneymakingapp.com
 0.0.0.0 mypagerank.net
-0.0.0.0 mypagerank.ru
 0.0.0.0 mypowermall.com
 0.0.0.0 mystat-in.net
 0.0.0.0 mystat.pl
@@ -30136,6 +30175,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rotabanner.com
 0.0.0.0 roughroll.com
 0.0.0.0 roxr.net
+0.0.0.0 rs6.net
 0.0.0.0 rtbpop.com
 0.0.0.0 rtbpopd.com
 0.0.0.0 rtmark.net
@@ -30169,6 +30209,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 searchramp.com
 0.0.0.0 secretivecub.com
 0.0.0.0 secretspiders.com
+0.0.0.0 securedopen-bp.com
 0.0.0.0 sedotracker.com
 0.0.0.0 selectionsugar.com
 0.0.0.0 selectivesummer.com
@@ -30201,6 +30242,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 silkysquirrel.com
 0.0.0.0 sillyscrew.com
 0.0.0.0 similarsabine.com
+0.0.0.0 simpleanalytics.io
 0.0.0.0 sincerebuffalo.com
 0.0.0.0 sincerespy.com
 0.0.0.0 sinefight-skinesia.com
@@ -30270,6 +30312,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 stat.zenon.net
 0.0.0.0 stat24.com
 0.0.0.0 static.itrack.it
+0.0.0.0 statistic.ads24h.net
 0.0.0.0 statm.the-adult-company.com
 0.0.0.0 stats.blogger.com
 0.0.0.0 stats.hyperinzerce.cz
@@ -30311,8 +30354,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 swimslope.com
 0.0.0.0 swordfishdc.com
 0.0.0.0 swordgoose.com
+0.0.0.0 t.eloqua.com
 0.0.0.0 t.insigit.com
 0.0.0.0 taboola.com
+0.0.0.0 tagan.adlightning.com
 0.0.0.0 tagular.com
 0.0.0.0 tailsweep.com
 0.0.0.0 tailsweep.se
@@ -30401,6 +30446,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tracker.trackerfix.com
 0.0.0.0 tracking.crunchiemedia.com
 0.0.0.0 tracking.ibxlink.com
+0.0.0.0 tracking01.walmart.com
 0.0.0.0 tracking101.com
 0.0.0.0 trackingsoft.com
 0.0.0.0 trackmysales.com
@@ -30635,7 +30681,7 @@ ff02::3 ip6-allhosts
 
 ##### Version Information #
 ###################################################
-### Version: V1.2019.06.7916
+### Version: V1.2019.07.7924
 ##### Version Information ##
 
 # Use this file to prevent your computer or server from connecting to selected
@@ -31551,7 +31597,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 huge-gay-cock.com
 0.0.0.0 hugenaturalknockers.info
 0.0.0.0 hugersoft.com
-0.0.0.0 hugo-brasserie.de
 0.0.0.0 hugoparisescort.com
 0.0.0.0 huhmag.com
 0.0.0.0 huisvrouwen.be
@@ -35691,8 +35736,8 @@ ff02::3 ip6-allhosts
 
 # Title: KADhosts
 # Description: Filtr chroniacy przed przekretami takimi jak subskrypcje SMS
-# Last modified: Sat, 22 Jun 2019, 18:08 UTC+02
-# Version: 2019.6.22.5
+# Last modified: Thu, 04 Jul 2019, 12:47 UTC+02
+# Version: 2019.7.4.1
 # Expires: 2 days
 # Website: https://kadantiscam.netlify.com/
 # Repository: https://github.com/PolishFiltersTeam/KADhosts
@@ -35710,7 +35755,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 7tools.eu
 0.0.0.0 24hoursready.cf
 0.0.0.0 24-fakty.pl
-0.0.0.0 1050-sklep.com
 0.0.0.0 3000-od-reki.pl
 0.0.0.0 ablip.pl
 0.0.0.0 acaiberryextreme.pl
@@ -35753,6 +35797,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 appfox.org
 0.0.0.0 appgasstation.com
 0.0.0.0 apteka2000.pl
+0.0.0.0 aquafit.sklep.pl
+0.0.0.0 aquafit24.pl
 0.0.0.0 areyouabot.net
 0.0.0.0 areyouahuman.co
 0.0.0.0 ariix.com
@@ -35834,6 +35880,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cinema-online.pl
 0.0.0.0 classicleather.pl
 0.0.0.0 cobra-siedlce.pl
+0.0.0.0 codeandwork.pl
 0.0.0.0 colway.pl
 0.0.0.0 colwayinternational.com
 0.0.0.0 colway-sklep.com
@@ -35848,12 +35895,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 cpm10.com
 0.0.0.0 crediko.pl
 0.0.0.0 cristianlay.com
+0.0.0.0 crocsoutletpolska.pl
 0.0.0.0 csgoskinsproject.pl
 0.0.0.0 cultland.pl
 0.0.0.0 czyjtonumertel.pl
 0.0.0.0 dagcoin.org
 0.0.0.0 dailyadultnews.com
-0.0.0.0 dampozyczke.pl
 0.0.0.0 darmowefilmy.eu
 0.0.0.0 darmowe-ebooki.com.pl
 0.0.0.0 darmowe-ebooki.net
@@ -35998,13 +36045,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 gazetainfo.pl
 0.0.0.0 gazeta-pl.site
 0.0.0.0 gbptest.net
-0.0.0.0 gdb-finance.pl
 0.0.0.0 gemverify.com
 0.0.0.0 generatorkodow.hpu.pl
 0.0.0.0 gerotel.com
 0.0.0.0 getleads.pl
 0.0.0.0 getthesneakers.pl
 0.0.0.0 gift-cards.co.pl
+0.0.0.0 gikon.pl
 0.0.0.0 girrrly.com
 0.0.0.0 glinkss.com
 0.0.0.0 globalmagazine24.eu
@@ -36039,6 +36086,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 hitlog.tk
 0.0.0.0 hksfa.org
 0.0.0.0 holdenavenue.pl
+0.0.0.0 hollistersklepinternetowy.pl
 0.0.0.0 hollisterwarszawa.pl
 0.0.0.0 homeagd.in.net
 0.0.0.0 homeekspert.net
@@ -36089,6 +36137,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 kinujemy.pl
 0.0.0.0 kirchbaum.pl
 0.0.0.0 kixshop.pl
+0.0.0.0 kkorzeniowski.pl
 0.0.0.0 kl21.pl
 0.0.0.0 klub13.pl
 0.0.0.0 klubpracyrodzica.pl
@@ -36152,6 +36201,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 menshealthweb.co
 0.0.0.0 mezczyzna-trendy.pl
 0.0.0.0 mieszkania-pokoje-wynajem.pl
+0.0.0.0 mikro24.pl
 0.0.0.0 minirtvshop.pl
 0.0.0.0 mmajerski.pl
 0.0.0.0 mobiapp-games.com
@@ -36243,6 +36293,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pitbull.ek1.pl
 0.0.0.0 pl.fmworld.com
 0.0.0.0 pl.fohow.eu
+0.0.0.0 pl.gvgmall.com
 0.0.0.0 pl.lider.pl
 0.0.0.0 pl.melaleuca.com
 0.0.0.0 pl.oriflame.com
@@ -36261,7 +36312,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 pobierz-online.co.pl
 0.0.0.0 pobraniowo.pl
 0.0.0.0 poland.fizzyslim.biz
-0.0.0.0 pole-henny.com
 0.0.0.0 polska-tv.pl
 0.0.0.0 polskifilm.com.pl
 0.0.0.0 pol.boobs-xl.com
@@ -36361,7 +36411,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 showup-tv.com.pl
 0.0.0.0 silvets.pl
 0.0.0.0 siniaki.pl
-0.0.0.0 skidrowreloaded.pl
 0.0.0.0 sklep466452.shoparena.pl
 0.0.0.0 skleptiande.pl
 0.0.0.0 sklep-colway.com
@@ -36392,6 +36441,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sug.com.pl
 0.0.0.0 sukces.pl
 0.0.0.0 sundaycashsaver.com
+0.0.0.0 superdryonline.pl
 0.0.0.0 super-tania-chwilowka.pl
 0.0.0.0 swiezaki.weebly.com
 0.0.0.0 szaloneupusty.pl
@@ -36426,7 +36476,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 torrenty--org.pl
 0.0.0.0 track.adsfast.com
 0.0.0.0 trackgsm.co.uk
-0.0.0.0 trackgsm.de
 0.0.0.0 trackgsm.pl
 0.0.0.0 tracksms.pl
 0.0.0.0 triggerinstalls.com
@@ -36534,6 +36583,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.appgasstation.com
 0.0.0.0 www.apteka2000.pl
 0.0.0.0 www.aquacell.pl
+0.0.0.0 www.aquafit24.pl
+0.0.0.0 www.aquafit.sklep.pl
 0.0.0.0 www.areyouabot.net
 0.0.0.0 www.areyouahuman.co
 0.0.0.0 www.ariix.com
@@ -36612,6 +36663,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.ciekawinki.pl
 0.0.0.0 www.cinemateka.pl
 0.0.0.0 www.classicleather.pl
+0.0.0.0 www.codeandwork.pl
 0.0.0.0 www.colorcredit.pl
 0.0.0.0 www.colwayinternational.com
 0.0.0.0 www.colway.pl
@@ -36624,12 +36676,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.crediko.pl
 0.0.0.0 www.credy.pl
 0.0.0.0 www.cristianlay.com
+0.0.0.0 www.crocsoutletpolska.pl
 0.0.0.0 www.csgoskinsproject.pl
 0.0.0.0 www.cultland.pl
 0.0.0.0 www.czyjtonumertel.pl
 0.0.0.0 www.dagcoin.org
 0.0.0.0 www.dailyadultnews.com
-0.0.0.0 www.dampozyczke.pl
 0.0.0.0 www.darmowefilmy.eu
 0.0.0.0 www.das33.io
 0.0.0.0 www.dascoingroup.com
@@ -36683,7 +36735,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.ekstrafilmy24.pl
 0.0.0.0 www.electrocity24.pl
 0.0.0.0 www.elektro24h.pl
-0.0.0.0 www.elektrostar.com.pl
 0.0.0.0 www.elepta.pl
 0.0.0.0 www.enbutique.com
 0.0.0.0 www.energetix.com.pl
@@ -36774,6 +36825,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.getcouponsfast.com
 0.0.0.0 www.getleads.pl
 0.0.0.0 www.getthesneakers.pl
+0.0.0.0 www.gikon.pl
 0.0.0.0 www.girrrly.com
 0.0.0.0 www.glinkss.com
 0.0.0.0 www.globalintergold.com
@@ -36804,6 +36856,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.hitlog.tk
 0.0.0.0 www.hksfa.org
 0.0.0.0 www.holdenavenue.pl
+0.0.0.0 www.hollistersklepinternetowy.pl
 0.0.0.0 www.hollisterskleponline.pl
 0.0.0.0 www.hollistersklep.com
 0.0.0.0 www.hollisterwarszawa.pl
@@ -36857,6 +36910,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.kinujemy.pl
 0.0.0.0 www.kirchbaum.pl
 0.0.0.0 www.kixshop.pl
+0.0.0.0 www.kkorzeniowski.pl
 0.0.0.0 www.kl21.pl
 0.0.0.0 www.klub13.pl
 0.0.0.0 www.klubpracyrodzica.pl
@@ -36927,6 +36981,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.megadownloader.co
 0.0.0.0 www.megazakupy.net
 0.0.0.0 www.menshealthweb.co
+0.0.0.0 www.mikro24.pl
 0.0.0.0 www.minirtvshop.pl
 0.0.0.0 www.mistrzmotywacji.pl
 0.0.0.0 www.mkaltenpflege24h.pl
@@ -37144,7 +37199,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.shopsneakers.pl
 0.0.0.0 www.silvets.pl
 0.0.0.0 www.siniaki.pl
-0.0.0.0 www.skidrowreloaded.pl
 0.0.0.0 www.sklep466452.shoparena.pl
 0.0.0.0 www.skleptiande.pl
 0.0.0.0 www.slawop.net
@@ -37174,6 +37228,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.sug.com.pl
 0.0.0.0 www.sukces.pl
 0.0.0.0 www.sundaycashsaver.com
+0.0.0.0 www.superdryonline.pl
 0.0.0.0 www.supplementum.pl
 0.0.0.0 www.suuntosklep.online
 0.0.0.0 www.swiezaki.weebly.com
@@ -37218,7 +37273,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.topseans.pl
 0.0.0.0 www.totucafe.pl
 0.0.0.0 www.trackgsm.co.uk
-0.0.0.0 www.trackgsm.de
 0.0.0.0 www.trackgsm.pl
 0.0.0.0 www.tracksms.pl
 0.0.0.0 www.track.adsfast.com
@@ -37293,7 +37347,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.wybierzpieniadze.pl
 0.0.0.0 www.wyjazd24.pl
 0.0.0.0 www.wyleczpc.pl
-0.0.0.0 www.wylogujsiezmatrixa.pl
 0.0.0.0 www.wyspaofert.com
 0.0.0.0 www.xbox1emulator.org
 0.0.0.0 www.xbox360emulator.com
@@ -37314,8 +37367,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.zakupyagd.net
 0.0.0.0 www.zakupymax.net
 0.0.0.0 www.zalukajfilmy.pl
-0.0.0.0 www.zantech.pl
 0.0.0.0 www.zapraszamybowarto.pl
+0.0.0.0 www.zaprojektujiwybuduj.pl
 0.0.0.0 www.zarobek4u.com
 0.0.0.0 www.zarobicpieniadze.com
 0.0.0.0 www.zebrapozyczki.pl
@@ -37337,7 +37390,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.20pascals.nl
 0.0.0.0 www.24hoursready.cf
 0.0.0.0 www.24-fakty.pl
-0.0.0.0 www.1050-sklep.com
 0.0.0.0 www.3000-od-reki.pl
 0.0.0.0 www.act-natural.pl
 0.0.0.0 www.act-natural-sklep.pl
@@ -37407,7 +37459,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.game-hack.biz
 0.0.0.0 www.gano-excel.pl
 0.0.0.0 www.gazeta-pl.site
-0.0.0.0 www.gdb-finance.pl
 0.0.0.0 www.gift-cards.co.pl
 0.0.0.0 www.gotowka-doreki.eu
 0.0.0.0 www.go.co-aa831.stream
@@ -37460,7 +37511,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.plik-pobierz.pl
 0.0.0.0 www.pm-international.com
 0.0.0.0 www.pobierz-online.co.pl
-0.0.0.0 www.pole-henny.com
 0.0.0.0 www.polska-tv.pl
 0.0.0.0 www.pol.boobs-xl.com
 0.0.0.0 www.pozyczka-minutowa.pl
@@ -37490,7 +37540,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.slimak-pozyczki.pl
 0.0.0.0 www.smart-m-system.com
 0.0.0.0 www.sms-z-internetu.pl
-0.0.0.0 www.sos-info-migrator.pl
 0.0.0.0 www.star-life.pl
 0.0.0.0 www.stop-sms.pl
 0.0.0.0 www.strefa-filmu.pl
@@ -37544,8 +37593,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 zakupyagd.net
 0.0.0.0 zakupymax.net
 0.0.0.0 zalukajfilmy.pl
-0.0.0.0 zantech.pl
 0.0.0.0 zapraszamybowarto.pl
+0.0.0.0 zaprojektujiwybuduj.pl
 0.0.0.0 zdaj-to.pl
 0.0.0.0 zebrapozyczki.pl
 0.0.0.0 zennoa-poland.com
@@ -37747,7 +37796,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 mecz.ujm.pl
 0.0.0.0 mecze24.6ka.info
 0.0.0.0 mememakers.mobi
-0.0.0.0 mobcontentxx.com
 0.0.0.0 mobileofferplace.site
 0.0.0.0 mobisex.pieprz.pl
 0.0.0.0 mobistos.com
@@ -37831,7 +37879,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.lnktk.com
 0.0.0.0 www.mecz.ujm.pl
 0.0.0.0 www.mememakers.mobi
-0.0.0.0 www.mobcontentxx.com
 0.0.0.0 www.mobileofferplace.site
 0.0.0.0 www.mobisex.pieprz.pl
 0.0.0.0 www.mobistos.com
@@ -37933,6 +37980,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adamdelivery.pl
 0.0.0.0 adobe.5v.pl
 0.0.0.0 akazoo.pl
+0.0.0.0 aktpl.com
 0.0.0.0 allplayer.pl
 0.0.0.0 all-player.pl
 0.0.0.0 androidsecurityplus.com
@@ -37946,10 +37994,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 apple.com-repair-os.live
 0.0.0.0 apple.com-scan.live
 0.0.0.0 apple.com-scan-mac.live
+0.0.0.0 apple.com-shield-device.live
 0.0.0.0 apple.com-speedup-macbook.live
 0.0.0.0 apple.com-speedup-macos.live
 0.0.0.0 apple.com-speed-macos.live
 0.0.0.0 appsdorado.com
+0.0.0.0 aseanlegaltech.com
 0.0.0.0 astrocash.org
 0.0.0.0 bazafilmowa.org
 0.0.0.0 beka.pl
@@ -37969,15 +38019,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 chomik24.com.pl
 0.0.0.0 chomik-24.pl
 0.0.0.0 chron-telefon.com
+0.0.0.0 circultural.com
+0.0.0.0 colormessa.info
 0.0.0.0 cool4mob.com
 0.0.0.0 coreplays.com
 0.0.0.0 cpagrip.com
 0.0.0.0 cs.nailrr.com
+0.0.0.0 cybermagicindia.com
 0.0.0.0 daily-jokes.net
 0.0.0.0 dark-forum.net
 0.0.0.0 darmowetesty.com
 0.0.0.0 darmowe-doladowania.net.pl
 0.0.0.0 darmowe-doladowanie.pl
+0.0.0.0 derikaosos.info
 0.0.0.0 doladowania-telefonu.pl
 0.0.0.0 doladujfona.net
 0.0.0.0 doladujfona.org
@@ -37988,10 +38042,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 download24.site
 0.0.0.0 downloadfiles.pl
 0.0.0.0 downloads-mobile.com
+0.0.0.0 drmarins.com
+0.0.0.0 durakbufecengelkoy.com
 0.0.0.0 easydownload.pl
 0.0.0.0 ebookeo.pl
 0.0.0.0 eforsa.pl
 0.0.0.0 elavepene.us
+0.0.0.0 elememory.com
 0.0.0.0 ero-tv.pl
 0.0.0.0 esemeso.pl
 0.0.0.0 exeos.ws
@@ -38003,6 +38060,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 fajne-filmy.pl
 0.0.0.0 faktopedia.com.pl
 0.0.0.0 fbpodgladacz.wordpress.com
+0.0.0.0 fifidossaltosaltos.com
 0.0.0.0 filebay.org
 0.0.0.0 filecom.net
 0.0.0.0 filedownloader.pl
@@ -38083,7 +38141,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 konkursy.de
 0.0.0.0 ksiazka-telefoniczna-online.pl
 0.0.0.0 ktopodgladamnienafacebooku.wordpress.com
+0.0.0.0 kurierania.com
+0.0.0.0 kurierinpost.info
+0.0.0.0 kurierstas.info
+0.0.0.0 l00tfiilues.lepfj.site
+0.0.0.0 learn2upgrade.find4bettervideoing.info
 0.0.0.0 lesemerick.com
+0.0.0.0 letswinstuff.com
 0.0.0.0 lifehackz.net
 0.0.0.0 lightcloud.pl
 0.0.0.0 liversely.com
@@ -38123,7 +38187,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 news-onet24.pl
 0.0.0.0 nonstopvideos.pl
 0.0.0.0 n-mobile.net
-0.0.0.0 offerplaying.com
 0.0.0.0 ollando.com
 0.0.0.0 onliine.pl
 0.0.0.0 onlinewideo.pl
@@ -38136,11 +38199,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 paraphingxmfevapk.xyz
 0.0.0.0 pay.mobiltek.pl
 0.0.0.0 pay2me.pl
+0.0.0.0 performancevitality.net
 0.0.0.0 performquickintenselyfile.icu
 0.0.0.0 pinamo.pl
 0.0.0.0 pinkstar.pl
 0.0.0.0 pko-bp.pl
+0.0.0.0 pkworld.com.pk
 0.0.0.0 pl.allsports4free.club
+0.0.0.0 pl.dailyoffer.top
 0.0.0.0 pl.mevida.me
 0.0.0.0 pl.mysafesmartphone.com
 0.0.0.0 pl.team
@@ -38160,7 +38226,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 pobieram-plik.pl
 0.0.0.0 pobierane.pl
 0.0.0.0 pobierz24.pl
-0.0.0.0 pobierz123.pl
 0.0.0.0 pobierzgo.pl
 0.0.0.0 pobierzpliki.pl
 0.0.0.0 pod004.site
@@ -38173,11 +38238,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 ptgame.eu
 0.0.0.0 qubble.com
 0.0.0.0 quiz-fun.com.my
+0.0.0.0 randewoo.ir
 0.0.0.0 rap-share.pl
 0.0.0.0 ravlw.nearbysluts.net
 0.0.0.0 relayimmo.com
 0.0.0.0 restricted.pl
+0.0.0.0 risingindianews.com
 0.0.0.0 rzeczyzadarmo.pl
+0.0.0.0 sarnisas.info
 0.0.0.0 searchrapid.pl
 0.0.0.0 secure4app.com
 0.0.0.0 secure-eplatnosc.com
@@ -38206,6 +38274,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 streamgo.pl
 0.0.0.0 streamuj.org
 0.0.0.0 superserwisy.pl
+0.0.0.0 s-pay24.com
 0.0.0.0 teenzforfun.com
 0.0.0.0 telewizja-internetowa24.pl
 0.0.0.0 themovienation.com
@@ -38213,6 +38282,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tinyfileshost.com
 0.0.0.0 todolize.com
 0.0.0.0 token-interia.pl
+0.0.0.0 tommyhalfigero.top
 0.0.0.0 tradeit.cash
 0.0.0.0 trafisz.com
 0.0.0.0 transmisje24.net
@@ -38233,8 +38303,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 vidplayer.pl
 0.0.0.0 vimeoo.net
 0.0.0.0 vod24.pl
+0.0.0.0 vtopiuops.info
 0.0.0.0 wapster.malutki.pl
 0.0.0.0 wapster.pl
+0.0.0.0 weartexhibitions.com
 0.0.0.0 weryfikacjadanych.ml
 0.0.0.0 weryfikacjadanych.tk
 0.0.0.0 wiadomosci-onet24.ml
@@ -38244,13 +38316,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 widget-eforsa.pl
 0.0.0.0 wincleanerpro.com
 0.0.0.0 wisdementive.info
+0.0.0.0 wwebsservice.info
 0.0.0.0 www.abbp35.com
 0.0.0.0 www.adamdelivery.pl
 0.0.0.0 www.akazoo.pl
+0.0.0.0 www.aktpl.com
 0.0.0.0 www.allplayer.pl
 0.0.0.0 www.androidsecurityplus.com
 0.0.0.0 www.appiq.mobi
 0.0.0.0 www.appsdorado.com
+0.0.0.0 www.aseanlegaltech.com
 0.0.0.0 www.astrocash.org
 0.0.0.0 www.bazafilmowa.org
 0.0.0.0 www.beka.pl
@@ -38264,11 +38339,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.centrumplay.pl
 0.0.0.0 www.childcaredaycare.ca
 0.0.0.0 www.chomik24.com.pl
+0.0.0.0 www.circultural.com
+0.0.0.0 www.colormessa.info
 0.0.0.0 www.cool4mob.com
 0.0.0.0 www.coreplays.com
 0.0.0.0 www.cpagrip.com
 0.0.0.0 www.cs.nailrr.com
+0.0.0.0 www.cybermagicindia.com
 0.0.0.0 www.darmowetesty.com
+0.0.0.0 www.derikaosos.info
 0.0.0.0 www.doladowywacztel.pl
 0.0.0.0 www.doladujfona.net
 0.0.0.0 www.doladujfona.org
@@ -38278,11 +38357,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.download24.site
 0.0.0.0 www.downloadfiles.pl
 0.0.0.0 www.download.televisionfanatic.com
+0.0.0.0 www.drmarins.com
+0.0.0.0 www.durakbufecengelkoy.com
 0.0.0.0 www.easydownload.pl
 0.0.0.0 www.easypdfcombine.com
 0.0.0.0 www.ebookeo.pl
 0.0.0.0 www.eforsa.pl
 0.0.0.0 www.elavepene.us
+0.0.0.0 www.elememory.com
 0.0.0.0 www.esemeso.pl
 0.0.0.0 www.exeos.ws
 0.0.0.0 www.ezdownloadpro.info
@@ -38291,6 +38373,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.failmobile.net
 0.0.0.0 www.faktopedia.com.pl
 0.0.0.0 www.fbpodgladacz.wordpress.com
+0.0.0.0 www.fifidossaltosaltos.com
 0.0.0.0 www.filebay.org
 0.0.0.0 www.filecom.net
 0.0.0.0 www.filedownloader.pl
@@ -38356,8 +38439,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.kolor.oq.pl
 0.0.0.0 www.konkursy.de
 0.0.0.0 www.ktopodgladamnienafacebooku.wordpress.com
+0.0.0.0 www.kurierania.com
+0.0.0.0 www.kurierinpost.info
+0.0.0.0 www.kurierstas.info
+0.0.0.0 www.l00tfiilues.lepfj.site
 0.0.0.0 www.leadzupc.com
+0.0.0.0 www.learn2upgrade.find4bettervideoing.info
 0.0.0.0 www.lesemerick.com
+0.0.0.0 www.letswinstuff.com
 0.0.0.0 www.lifehackz.net
 0.0.0.0 www.lightcloud.pl
 0.0.0.0 www.liversely.com
@@ -38391,7 +38480,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.needforfile.net
 0.0.0.0 www.newszone.pro
 0.0.0.0 www.nonstopvideos.pl
-0.0.0.0 www.offerplaying.com
 0.0.0.0 www.ollando.com
 0.0.0.0 www.onclickbright.com
 0.0.0.0 www.onliine.pl
@@ -38402,9 +38490,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.paraphingxmfevapk.xyz
 0.0.0.0 www.pay2me.pl
 0.0.0.0 www.pay.mobiltek.pl
+0.0.0.0 www.performancevitality.net
 0.0.0.0 www.performquickintenselyfile.icu
 0.0.0.0 www.pinamo.pl
 0.0.0.0 www.pinkstar.pl
+0.0.0.0 www.pkworld.com.pk
 0.0.0.0 www.platnosc24.com
 0.0.0.0 www.playmobia.com
 0.0.0.0 www.playmovie.pl
@@ -38416,7 +38506,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.pliks.pl
 0.0.0.0 www.pobierane.pl
 0.0.0.0 www.pobierz24.pl
-0.0.0.0 www.pobierz123.pl
 0.0.0.0 www.pobierzgo.pl
 0.0.0.0 www.pobierzpliki.pl
 0.0.0.0 www.pod004.site
@@ -38429,10 +38518,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.psialapka.pl
 0.0.0.0 www.ptgame.eu
 0.0.0.0 www.qubble.com
+0.0.0.0 www.randewoo.ir
 0.0.0.0 www.ravlw.nearbysluts.net
 0.0.0.0 www.relayimmo.com
 0.0.0.0 www.restricted.pl
+0.0.0.0 www.risingindianews.com
 0.0.0.0 www.rzeczyzadarmo.pl
+0.0.0.0 www.sarnisas.info
 0.0.0.0 www.searchrapid.pl
 0.0.0.0 www.secure4app.com
 0.0.0.0 www.seriale.org.pl
@@ -38463,6 +38555,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tinyfilehost.com
 0.0.0.0 www.tinyfileshost.com
 0.0.0.0 www.todolize.com
+0.0.0.0 www.tommyhalfigero.top
 0.0.0.0 www.tradeit.cash
 0.0.0.0 www.trafisz.com
 0.0.0.0 www.transmisje24.net
@@ -38480,12 +38573,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.vidplayer.pl
 0.0.0.0 www.vimeoo.net
 0.0.0.0 www.vod24.pl
+0.0.0.0 www.vtopiuops.info
 0.0.0.0 www.wapster.malutki.pl
 0.0.0.0 www.wapster.pl
+0.0.0.0 www.weartexhibitions.com
 0.0.0.0 www.weryfikacjadanych.ml
 0.0.0.0 www.weryfikacjadanych.tk
 0.0.0.0 www.wincleanerpro.com
 0.0.0.0 www.wisdementive.info
+0.0.0.0 www.wwebsservice.info
 0.0.0.0 www.wygrajpsc.eu
 0.0.0.0 www.wygrania.com
 0.0.0.0 www.wygrywa.pl
@@ -38518,6 +38614,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.apple.com-repair-os.live
 0.0.0.0 www.apple.com-scan.live
 0.0.0.0 www.apple.com-scan-mac.live
+0.0.0.0 www.apple.com-shield-device.live
 0.0.0.0 www.apple.com-speedup-macbook.live
 0.0.0.0 www.apple.com-speedup-macos.live
 0.0.0.0 www.apple.com-speed-macos.live
@@ -38580,6 +38677,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.ssl.full-secure-payments.online
 0.0.0.0 www.steam-wallet-gifts.com
 0.0.0.0 www.steam-wallet-money.com
+0.0.0.0 www.s-pay24.com
 0.0.0.0 www.telewizja-internetowa24.pl
 0.0.0.0 www.token-interia.pl
 0.0.0.0 www.tv-internetowa.pl
@@ -38765,6 +38863,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 hwww.zweryfiikujdane.tk
 0.0.0.0 kaufland.gift-cards.co.pl
 0.0.0.0 m.pl.failmobile.net
+0.0.0.0 mediamarkt.pl.dailyoffer.top
 0.0.0.0 odzyskajsnapy.blogspot.com
 0.0.0.0 pakiety-lte-5gb.blogspot.com
 0.0.0.0 pakiety-pokemon-go.blogspot.com
@@ -38786,9 +38885,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 poland.calivita.com
 0.0.0.0 premiumlink.7tools.eu
 0.0.0.0 prezent.odchudzaniezpasja.pl
+0.0.0.0 prod.letswinstuff.com
 0.0.0.0 promotions.monthlywinners.com
 0.0.0.0 publisher.lead.network
 0.0.0.0 r.clube62.date
+0.0.0.0 secure.s-pay24.com
 0.0.0.0 thecryptogenius.com
 0.0.0.0 vpt58.tvnewtop.pro
 0.0.0.0 web.cellfun.mobi
@@ -38821,6 +38922,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.hp.myway.com
 0.0.0.0 www.hwww.zweryfiikujdane.tk
 0.0.0.0 www.klikijuz.com
+0.0.0.0 www.mediamarkt.pl.dailyoffer.top
 0.0.0.0 www.m.pl.failmobile.net
 0.0.0.0 www.odzyskajsnapy.blogspot.com
 0.0.0.0 www.ping.ublock.org
@@ -38829,6 +38931,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.play.mobsfun.net
 0.0.0.0 www.poland.calivita.com
 0.0.0.0 www.prezent.odchudzaniezpasja.pl
+0.0.0.0 www.prod.letswinstuff.com
 0.0.0.0 www.promotions.monthlywinners.com
 0.0.0.0 www.publisher.lead.network
 0.0.0.0 www.r.clube62.date
@@ -38850,6 +38953,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.pakiety-lte-5gb.blogspot.com
 0.0.0.0 www.pakiety-pokemon-go.blogspot.com
 0.0.0.0 www.premiumlink.7tools.eu
+0.0.0.0 www.secure.s-pay24.com
 0.0.0.0 wydawca.lead.network
 0.0.0.0 zmienkolory.blogspot.com
 # End KADhosts
@@ -42132,7 +42236,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 komostyle.com
 0.0.0.0 kotoran.com
 0.0.0.0 koukoku.red
-0.0.0.0 krxd.net
 0.0.0.0 ktai.pw
 0.0.0.0 kushyma.com
 0.0.0.0 l.logly.co.jp
@@ -43241,7 +43344,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 thefreepatriot.org
 0.0.0.0 thefreethoughtproject.com
 0.0.0.0 thefrt.com
-0.0.0.0 thehardtimes.net
 0.0.0.0 theineptowl.com
 0.0.0.0 thelapine.ca
 0.0.0.0 thelastgreatstand.com
